@@ -1,11 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
+
 
 .container1{
     width: 99%;
-    /* margin-top: 1500px; */
+    margin-top: 1500px;
     height: 350px;
     background-color:#ffbe9f ;
     /* width: 700px; */
@@ -396,4 +394,260 @@ p{
 /* THE END PARTIE NDIEME */
 
 
+
+
+body{
+    width: 100%;
+    height: auto;
+
+}
+.head{
+    width: 99%; 
+    height: 40px; 
+    background-color: #FFBE9F; 
+    display: flex;  
+    justify-content: center;
+     align-items: center;
+}
+.head p{
+    text-align: center;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: #B82330;
+}
+nav li{
+    width:  100%;
+    height:100%;
+    margin-right: 15px;
+    display: inline;
+    list-style: none;
+    font-size:  18px;
+    color: #B82330;
+    }
+    
+    .icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+    }
+    label{
+        color: red;
+        margin-left: 60px;
+    }
+    select{
+        color: red;
+        background-color: white;
+        border: none;
+    }
+    
+    .shop{
+        width: 100%;
+        height: 40px;
+        margin-top: -130px;
+        display: flex;
+        justify-content: center;
+        
+       
+    }
+    .tof-anima1 img{
+        width: 99%;
+    }
+    .b-shop{
+        width: 150px;
+        height: 60px;
+        text-align: center;
+        color: white;
+         background-color: #54565a;
+         border: none;
+         border-radius: 8%;
+    }
+    .section1{
+        width: 100%;
+        height: 500px;
+        margin-top: 200px;
+        display: flex;
+        justify-content: center;
+    }
+    .all-sect-1{
+        width: 100%;
+        height: 100%;
+    
+    }
+    .galleries-1{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        justify-content: center;
+    }
+    .tof2{
+        width: 300px;
+    }
+    .tof3{
+        width: 300px;
+    }
+    .tof4{
+        width: 300px;
+    }
+    .tof5{
+        width: 300px;
+    }
+    .all-product{
+        width: 100%;
+        height: 500px;
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .b1-sect1{
+        width: 250px;
+        height: 40px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+         background-color: #54565a;
+         border: none;
+         border-radius: 5%;
+    }
+    .btn-view-all{
+        display: flex;
+        justify-content: center;
+    }
+    .all-foodies{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .plat1{
+        width: 400px;
+        height:500px;
+    }
+    .plat2{
+        width: 400px;
+        height:500px;
+    }
+    .plat3{
+        width: 400px;
+        height:500px;
+    }
+    .cook, .wake{
+        margin-top: -150px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+    }
+
+    .transform{
+        margin-top: -180px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: white;
+
+    }
+    .btn-view{
+        width: 200px;
+        height: 50px;
+        border: none;
+        border-radius: 5%;
+    }
+    .orange{
+        width: 99%;
+        height: 650px;
+        margin-top: 50px;
+        text-align: center;
+        color: #B82330;
+        display: flex;
+        flex-direction: column;
+        background-image: url(image/banniere_site_web_sous_recette_1920x1080.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .or-tofs{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+    .ban{
+        width: 400px;
+    }
+    .bee{
+        width: 400px;
+        height: 270px;
+    }
+    .alm{
+        width: 400px;
+    }
+    .bana{
+       background-color: white;
+    }
+    .beet{
+        background-color: white;
+    }
+    .almon{
+        background-color: white;
+    }
+    .btn-recipes{
+        margin-top: 100px;
+        width: 200px;
+        height: 50px;
+        border: none;
+        border-radius: 5%;
+    }
+    
+    @media only screen and (max-width: 729px){
+        nav{
+            display: flex;
+            flex-direction: column;
+        }
+        .section1{
+            display: flex;
+            flex-direction: column;
+        }
+        .tof-anima1{
+            width: 90%;
+        }
+        .galleries-1{
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 400px;
+        }
+        .all-product{
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 700px;
+        }
+        .all-foodies{
+            display: flex;
+            flex-direction: column;
+        }
+        .orange{
+            display: flex;
+            flex-direction: column;
+            background-image: none;
+        }
+        .or-tofs{
+            display: flex;
+            flex-direction: column;
+        }
+        }
 
