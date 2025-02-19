@@ -1,6 +1,13 @@
 
 
 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 .container1{
     width: 99%;
     margin-top: 1500px;
@@ -649,5 +656,9 @@ nav li{
             display: flex;
             flex-direction: column;
         }
+
         }
+
+
+        
 
